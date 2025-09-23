@@ -1,7 +1,7 @@
 from turtle import *
 from colorsys import *
 tracer(10)
-bgcolor("black")
+bgcolor("grey")
 pensize(1)
 h=0
 goto(0,20)

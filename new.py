@@ -10,7 +10,7 @@ def draw(ang,n):
     left(ang)
     circle(5+n*2, 60)
 for i in range(200):
-    color(hsv_to_rgb(h, 1, 1))
+    color(hsv_to_rgb(h, 2, 2))
     h += 0.0062
     up()
     draw(90, i)
